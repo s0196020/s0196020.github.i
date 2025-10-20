@@ -1,4 +1,4 @@
-/* Простые стили в серых тонах */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Порядок для мобильных устройств (по умолчанию) */
+
 main {
     display: flex;
     flex-direction: column;
@@ -17,20 +17,20 @@ main {
 .order-2 { order: 2; }
 .order-3 { order: 3; }
 
-/* Порядок для больших экранов (lg и выше) */
+
 @media (min-width: 992px) {
     .order-lg-1 { order: 1 !important; }
     .order-lg-2 { order: 2 !important; }
     .order-lg-3 { order: 3 !important; }
 }
 
-/* Логотип */
+
 .logo-image {
     max-width: 80px;
     height: auto;
 }
 
-/* Карточки */
+
 .card {
     border: 1px solid #dee2e6;
     border-radius: 4px;
@@ -49,7 +49,7 @@ main {
     background-color: white;
 }
 
-/* Ссылки */
+
 a {
     color: #495057;
     text-decoration: none;
@@ -60,7 +60,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Таблица */
+
 .table {
     margin-bottom: 0;
 }
@@ -77,22 +77,21 @@ a:hover {
     padding: 8px 10px;
 }
 
-/* Четные строки таблицы - белые */
 .table tbody tr:nth-of-type(even) {
     background-color: #ffffff;
 }
 
-/* Нечетные строки таблицы - светло-серые */
+
 .table tbody tr:nth-of-type(odd) {
     background-color: #f8f9fa;
 }
 
-/* Выделенная строка */
+
 .bg-light {
     background-color: #e9ecef;
 }
 
-/* Форма */
+
 .form-control {
     border: 1px solid #ced4da;
     background-color: white;
@@ -113,7 +112,7 @@ a:hover {
     color: #6c757d;
 }
 
-/* Кнопки */
+
 .btn {
     border-radius: 4px;
 }
@@ -151,13 +150,12 @@ a:hover {
     color: white;
 }
 
-/* Изображения */
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
 
-/* Списки */
+
 .list-unstyled li {
     padding: 5px 0;
     border-bottom: 1px solid #f8f9fa;
@@ -167,7 +165,7 @@ a:hover {
     border-bottom: none;
 }
 
-/* На мобильных */
+
 @media (max-width: 768px) {
     .card-body {
         padding: 10px;
