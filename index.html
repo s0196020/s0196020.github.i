@@ -51,8 +51,8 @@
 
     <!-- Основной контент -->
     <main class="container my-4">
-        <!-- Секция ссылок - всегда первая -->
-        <section id="links" class="mb-4">
+        <!-- Секция ссылок - на ПК ПЕРВАЯ, на мобильных ВТОРАЯ -->
+        <section id="links" class="mb-4 order-2 order-lg-1">
             <div class="card">
                 <div class="card-header bg-secondary text-white">
                     <h2 class="h5 mb-0">Список гиперссылок</h2>
@@ -100,8 +100,8 @@
             </div>
         </section>
 
-        <!-- Секция таблицы -->
-        <section id="table" class="mb-4">
+        <!-- Секция таблицы - на мобильных ПЕРВАЯ, на ПК ВТОРАЯ -->
+        <section id="table" class="mb-4 order-1 order-lg-2">
             <div class="card">
                 <div class="card-header bg-secondary text-white">
                     <h2 class="h5 mb-0">Таблица пород кошек</h2>
@@ -164,8 +164,8 @@
             </div>
         </section>
 
-        <!-- Секция формы -->
-        <section id="form">
+        <!-- Секция формы - всегда третья -->
+        <section id="form" class="order-3">
             <div class="card">
                 <div class="card-header bg-secondary text-white">
                     <h2 class="h5 mb-0">Форма обратной связи</h2>
